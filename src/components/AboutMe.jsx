@@ -12,7 +12,7 @@ function AboutMe() {
                 <div class='col-lg-6'>
                     <div className='bio'>
                         <h2>About Me</h2>
-                        <p> I'm a Jr Fullstack Developer with a knack for sleek and efficient UX/UI. I know how important clean design is and I put all my passion
+                        <p> I'm a Jr Fullstack Developer with a knack for sleek and efficient <strong>UX/UI</strong>. I know how important clean design is and I put all my passion
                             creating beautiful, MOBILE-FIRST, applications. </p>
                     </div>
                 </div>

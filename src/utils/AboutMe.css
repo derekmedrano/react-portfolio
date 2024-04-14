@@ -6,7 +6,7 @@
 }
 .aboutme-photo {
     max-height: 25rem;
-    border-color: black;
+    border-color: rgba(2, 2, 109, 0.856);
     border-style: solid;
     border-radius: 5%;
 }

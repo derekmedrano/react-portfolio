@@ -1,5 +1,10 @@
 .nav {
     color: black;
+    justify-content: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 .navi-link {
