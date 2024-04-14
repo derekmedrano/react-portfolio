@@ -1,3 +1,11 @@
-.navigation {
+.nav {
     color: black;
+}
+
+.navi-link {
+    margin: 5px;
+}
+
+.nav-link.active {
+    color: greenyellow
 }
