@@ -4,6 +4,7 @@ import Nav from './components/Navigation';
 import AboutMe from './components/AboutMe';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Header />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className="mx-3">{renderPage()}</main>
+      <Footer />
     </div>  
     </>
   )
