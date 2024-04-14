@@ -1,3 +1,12 @@
+.bio {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal; 
+}
 .aboutme-photo {
-    max-height: 20rem;
+    max-height: 25rem;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5%;
 }
