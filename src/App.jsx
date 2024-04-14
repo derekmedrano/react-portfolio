@@ -1,12 +1,12 @@
-import './App.css'
+import React, { useState } from 'react';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
-      <h1>Derek Medrano</h1>
-      <div className="card">
-      </div>
+      <Header />
+     
     </>
   )
 }
