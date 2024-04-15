@@ -1,11 +1,13 @@
-h2 {
-    font-family: "Share Tech Mono", monospace;
+.title {
+    margin-top: 10px;
     font-size: 2rem;
-    
+    color: white;
+    font-weight: 800;
 }
 
 .bio {
     margin: 10%;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
     line-height: 3vh;
@@ -15,7 +17,7 @@ h2 {
 .aboutme-photo {
     margin-top: 5%;
     max-height: 25rem;
-    border-color: rgb(71, 224, 0);
+    border-color: purple;
     border-style: solid;
     border-radius: 5%;
 }

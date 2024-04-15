@@ -4,8 +4,6 @@ header {
     align-items: center;
     justify-content: space-around;
     min-height: 5vh;
-    min-width: 30vw;
-    background-color: black;
 }
 
 .header {
