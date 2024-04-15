@@ -30,7 +30,7 @@ const Footer = () =>{
             </a>
           </li>
         </ul>
-
+        <p className='footer-note'>Made with 💕 and React</p>
         </footer>
     )
 }

@@ -28,7 +28,7 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    alert(`Thanks for your message! ${name}`);
+    alert(`Thanks for your message ${name}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');

@@ -1,5 +1,8 @@
-.footer {
+footer {
     background: linear-gradient(130deg, black 0%, rgb(148, 72, 199) 100%);
+}
+
+.footer {
     min-height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -9,4 +12,11 @@
 
 .fa-icon {
     min-height: 100px;
+}
+
+.footer-note {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
 }
