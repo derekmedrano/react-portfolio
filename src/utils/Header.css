@@ -6,11 +6,20 @@ header {
     min-height: 5vh;
 }
 
+
+/* CSS rules only applied to 'DEREK MEDRANO' text at top of header */
 .header {
+
+  /* Some basic css rules */
     text-transform: uppercase;
+    font-weight: 400;
     min-width: 100%;
     /* margin-top: 5vh; */
     margin-left: 20px;
+    font-size: 5rem;
+    display: inline-block;
+
+  /* Sets colors for Header animation */
    background-image: linear-gradient(
      -225deg,
      #231557 0%,
@@ -18,18 +27,20 @@ header {
      #03df03 67%,
      #eb0ac5 100%
    );
+
+  /* Additional styling declared before animation code is added */
    background-size: auto auto;
    background-clip: border-box;
    background-size: 200% auto;
    color: #fff;
    background-clip: text;
+
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   animation: textclip 2s linear infinite;
-   display: inline-block;
-    font-size: 5em;
 
+/* Code responsible for animation on Header */
+   animation: textclip 2s linear infinite;
  }
  
  @keyframes textclip {

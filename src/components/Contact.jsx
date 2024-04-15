@@ -37,6 +37,7 @@ function Contact() {
   };
 
   return (
+    
     <div className="container text-center">
       <form className="form" onSubmit={handleFormSubmit}>
         <input

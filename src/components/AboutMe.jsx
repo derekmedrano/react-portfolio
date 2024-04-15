@@ -1,5 +1,7 @@
 import React from 'react'
+
 import '../utils/AboutMe.css'
+import DerekMedranoResume from '../utils/DerekMedranoResume.pdf'
 
 function AboutMe() {
     return (
@@ -23,10 +25,16 @@ function AboutMe() {
 
                         <br></br>
 
-                        <p>Below are links to my Github and LinkedIn profiles. Or you can just email me with 
-                            that nifty little envelope icon. 
-                            Thanks for much for stopping by!
-                        </p>
+                        <p>Below are links to my Github and LinkedIn profiles.</p>
+
+                        <a
+                            href={DerekMedranoResume}
+                            download="DerekMedranoResume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+>
+  Click HERE to download my resume!
+</a>
 
                     </div>
                 </div>
