@@ -1,5 +1,7 @@
 import React from 'react'
+
 import '../utils/AboutMe.css'
+import DerekMedranoResume from '../utils/DerekMedranoResume.pdf'
 
 function AboutMe() {
     return (
@@ -10,10 +12,30 @@ function AboutMe() {
                     <img className='aboutme-photo' src='../public/assets/selfie.jpg' alt='profile picture' />
                 </div>
                 <div class='col-lg-6'>
+                    <h2 className='title'>About Me</h2>
                     <div className='bio'>
-                        <h2>About Me</h2>
                         <p> I'm a Jr Fullstack Developer with a knack for sleek and efficient <strong>UX/UI</strong>. I know how important clean design is and I put all my passion
                             creating beautiful, MOBILE-FIRST, applications. </p>
+
+                        <br></br>
+
+                        <p>Here you'll be able to view some of my previous projects. Take a look around and feel 
+                            free to reach out if you have any questions (or just want to say hi)!
+                        </p>
+
+                        <br></br>
+
+                        <p>Below are links to my Github and LinkedIn profiles.</p>
+
+                        <a
+                            href={DerekMedranoResume}
+                            download="DerekMedranoResume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+>
+  Click HERE to download my resume!
+</a>
+
                     </div>
                 </div>
             </div>

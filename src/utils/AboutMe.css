@@ -1,12 +1,24 @@
+.title {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+}
+
 .bio {
+    margin: 10%;
+    color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 3vh;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+    text-indent: 20px;
 }
 .aboutme-photo {
+    margin-top: 5%;
     max-height: 25rem;
-    border-color: rgba(2, 2, 109, 0.856);
+    border-color: purple;
     border-style: solid;
     border-radius: 5%;
 }

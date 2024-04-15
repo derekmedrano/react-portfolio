@@ -6,6 +6,8 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import './utils/Index.css';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -30,7 +32,7 @@ function App() {
     <div>
       <Header />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main className="mx-3">{renderPage()}</main>
+      <main className="body">{renderPage()}</main>
       <Footer />
     </div>  
     </>
