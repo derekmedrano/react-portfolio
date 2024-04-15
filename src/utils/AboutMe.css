@@ -1,10 +1,16 @@
+h2 {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 2rem;
+    
+}
+
 .bio {
     margin: 10%;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 3vh;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
 }
 .aboutme-photo {
     margin-top: 5%;

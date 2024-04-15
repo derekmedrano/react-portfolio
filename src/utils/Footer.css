@@ -1,5 +1,5 @@
 .footer {
-    background-color: black;
+    background: linear-gradient(130deg, black 0%, rgb(148, 72, 199) 100%);
     min-height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -7,3 +7,6 @@
     list-style-type: none;
 }
 
+.fa-icon {
+    min-height: 100px;
+}
