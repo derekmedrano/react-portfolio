@@ -1,10 +1,12 @@
 import React from 'react';
 
+import '../utils/Project.css'
+
 const ProjectCard = ({ title, imageUrl, link }) => (
   <div className="col-md-4 mb-4">
     <a href={link} className="card-link">
       <div className="card">
-        <img src={imageUrl} className="card-img-top" alt={title} />
+        <img src={imageUrl} className="card-img-top" alt={'Screenshot of Projects'} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
         </div>
@@ -48,7 +50,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5"> 
       <div className="row">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
