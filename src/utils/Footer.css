@@ -16,6 +16,7 @@ footer {
 
 .footer-note {
     margin: 10px;
+    margin-bottom: 0;
     text-align: center;
     color: white;
     opacity: 50%;

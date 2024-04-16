@@ -43,14 +43,14 @@ const Project = () => {
       link: "project5.htmhttps://github.com/derekmedrano/random-password-generator"
     },
     {
-        title: "Random Password Generator (Front End only)",
+        title: "Weather Database(API)",
         imageUrl: "../../assets/PortfProj6.png",
         link: "project5.htmhttps://github.com/derekmedrano/random-password-generator"
       }
   ];
 
   return (
-    <div className="container mt-5"> 
+    <div className="container"> 
       <div className="row">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
