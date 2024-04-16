@@ -12,7 +12,9 @@ This application serves as my main portfolio. It was made with react and showcas
 6. [Questions](#questions)
 
 ## Installation
-Project is installed via Github forking and ran in Node.js
+Deployed application can be accessed [here](derekmedrano-react-portfolio.netlify.app)!
+
+Project is installed locally via Github forking and ran in Node.js.
 
 ## Usage
 Users can view my past work and find other sites I'm on like Github and LinkedIn.
