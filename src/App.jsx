@@ -6,6 +6,8 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+// Import reset css as well as custom index css styling
+import './App.css'
 import './utils/Index.css';
 
 
