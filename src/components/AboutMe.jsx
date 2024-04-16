@@ -3,15 +3,13 @@ import React from 'react'
 import '../utils/AboutMe.css'
 import DerekMedranoResume from '../utils/DerekMedranoResume.pdf'
 
-import selfie from '../../public/assets/selfie.jpg'
-
 function AboutMe() {
     return (
 
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-6'>
-                    <img className='aboutme-photo' src={selfie} alt='profile picture' />
+                    <img className='aboutme-photo' src='/assets/selfie.jpg' alt='profile picture' />
                 </div>
                 <div class='col-lg-6'>
                     <h2 className='title'>About Me</h2>
