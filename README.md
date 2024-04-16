@@ -68,7 +68,7 @@ Here we have a simple navigation section that uses handlePageChange(). Nothing t
 
 App reset sheet
 normalize.css v8.0.1
-github.com/necolas/normalize.css
+https://github.com/necolas/normalize.css
 
 Text Colour Animation Effect 
 https://alvarotrigo.com/blog/css-text-animations/
