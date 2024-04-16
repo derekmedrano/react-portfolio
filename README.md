@@ -23,7 +23,7 @@ Thanks so much for stopping by!
 6. [Questions](#questions)
 
 ## Installation
-<strong>Deployed application can be accessed [here]([https://derekmedrano-react-portfolio.netlify.app/])!</strong>
+<strong>Deployed application can be accessed here: https://derekmedrano-react-portfolio.netlify.app/ <strong>
 
 Project is installed locally via Github forking and ran in Node.js.
 
