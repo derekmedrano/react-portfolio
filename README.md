@@ -40,7 +40,7 @@ Main.jsx file which imports styling packages for global use
 vite config is pretty standard but we added some server properties so it will open the server immediately when app is ran.
 ![Screenshot 2024-04-15 201848](https://github.com/derekmedrano/react-portfolio/assets/42650709/41416147-f5d7-4997-ab31-ac81b5011704)
 
-Here is the actual App code that is repsonsible for the single page layout and order. 
+Here is the actual App code that is responsible for the single page layout and order. 
 ![Screenshot 2024-04-15 202024](https://github.com/derekmedrano/react-portfolio/assets/42650709/e1fdad93-1314-4caf-867b-282c5aa26934)
 
 Code responsible for main aboutme page, not much special going on here mostly just bootstrap styling with a simple download for my resume.
