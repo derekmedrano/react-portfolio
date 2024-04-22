@@ -6,7 +6,7 @@ This application serves as my main portfolio. It was made with react and showcas
 Here's a sneak peak! 
 ![Screenshot 2024-04-15 201139](https://github.com/derekmedrano/react-portfolio/assets/42650709/0c82e5ff-4ff1-49e3-9221-8d3277dbbbeb)
 
-This serves not only as a passion project for me, but one that I hope otm carry with my and refine throughout my career.
+This serves not only as a passion project for me, but one that I hope to carry with me and refine throughout my career.
 It's a small sample of my hardwork and determination and I hope that it shows!
 
 I wanted to make a nice README for this as well. I believe its very important to make these look nice and full. Below you'll find code snippets with further
@@ -55,14 +55,6 @@ and the actual rendered piece of the page:
 
 Here we have a simple navigation section that uses handlePageChange(). Nothing too complex going on here. 
 ![sc8](https://github.com/derekmedrano/react-portfolio/assets/42650709/712aa846-50b4-44f7-8390-05266f87de7c)
-
-
-
-
-
-
-
-
 
 ## Credits
 
