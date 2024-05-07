@@ -51,6 +51,10 @@ const Project = () => {
 
   return (
     <div className="container"> 
+      <div className='project-header'>
+                      <h2>Previous Projects</h2>
+        <h3>(checkout my Github link below for even more!)</h3>
+      </div>
       <div className="row">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />

@@ -18,7 +18,34 @@
 .aboutme-photo {
     margin-top: 5%;
     max-height: 25rem;
-    border-color: purple;
+    border-color: #eb0ac5;
     border-style: solid;
     border-radius: 5%;
 }
+
+@media (max-width: 475px) {
+    .title, .bio, .aboutme-photo {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+    .aboutme-photo
+    {
+        max-height: 20rem;
+    }
+} 
+
+
+@media (min-width: 640px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+
+@media (min-width: 1536px) {}
