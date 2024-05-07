@@ -1,5 +1,5 @@
 footer {
-    background: linear-gradient(130deg, black 0%, rgb(148, 72, 199) 100%);
+    background: rgb(62, 30, 83);
 }
 
 .footer {
@@ -21,3 +21,5 @@ footer {
     color: white;
     opacity: 50%;
 }
+
+
